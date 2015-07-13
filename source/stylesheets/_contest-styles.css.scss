@@ -1,0 +1,75 @@
+$contest-text-color: #000;
+
+#ss-form{
+  margin: 0 auto;
+}
+.ss-form{
+max-width: 700px;
+text-align: left;
+margin: 0 auto;
+  .ss-q-title{
+    font-size: 20px;
+    font-family: 'PlacardMT-BoldCondensed';
+    text-transform: uppercase;
+    color: $contest-text-color;
+  }
+  .ss-form-entry{
+    // max-width: 700px;
+  }
+
+}
+
+.disclaimer{
+  color: $contest-text-color;
+  // max-width: 400px;
+  margin: 20px auto 10px auto;
+  text-align: left;
+}
+
+.required-message{display: none;}
+
+
+.redsubmit{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#navigation-table{
+  margin: 0 auto !important;
+}
+
+.disneysubmit{
+  margin: 0 auto;
+  border: none;
+  background-image: url(../images/enterbutton.png);
+  width: 203px !important;
+  height: 75px;
+  margin: 20px 0 20px 0;
+  background-color: transparent;
+}
+
+// .form-control{
+//   font-size: 30px;
+//   height: 50px !important;
+// }
+
+.official-rules-link{
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+  a{
+    color: $contest-text-color;
+    text-decoration: none;
+  }
+}
+
+#rules-link{
+  max-width: 810px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.thank-you{
+  color: $contest-text-color;
+  font-family: 'PlacardMT-BoldCondensed';
+}
