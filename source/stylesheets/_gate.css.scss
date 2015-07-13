@@ -1,0 +1,31 @@
+.gate{
+  color: #fff;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+  min-height: 400px;
+  .logo{
+    max-width: 320px;
+    width: 100%;
+  }
+  img{
+    margin-top: 50px;
+    width: 100%;
+    max-width: 320px;
+  }
+  form{
+    max-width: 320px;
+    margin: 0 auto;
+    input{
+      margin: 0 auto;
+      -webkit-min-logical-width: 80%;
+    }
+  }
+}
