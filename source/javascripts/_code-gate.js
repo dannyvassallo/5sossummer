@@ -13,21 +13,22 @@ function validateAge() {
     }
     else{
         $('#age-gate').addClass('hider');
-        $('#code-gate').removeClass('hider');
-        return false
-    }
-}
-
-function validateCode() {
-    var code = document.forms["code-gate"]["code"].value;
-    code = code.toLowerCase();
-
-    if (code == "thecode"){
+        // $('#code-gate').removeClass('hider');
         $('.gate').fadeOut('slow');
         return false
     }
-    else{
-        alertify.error("Sorry, the codeword you entered is not valid.");
-        return false
-    }
 }
+
+// function validateCode() {
+//     var code = document.forms["code-gate"]["code"].value;
+//     code = code.toLowerCase();
+
+//     if (code == "thecode"){
+//         $('.gate').fadeOut('slow');
+//         return false
+//     }
+//     else{
+//         alertify.error("Sorry, the codeword you entered is not valid.");
+//         return false
+//     }
+// }
