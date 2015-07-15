@@ -14,6 +14,7 @@ function validateAge() {
     else{
         $('#age-gate').addClass('hider');
         // $('#code-gate').removeClass('hider');
+        window.scrollTo(0,0);
         $('.gate').fadeOut('slow');
         return false
     }
